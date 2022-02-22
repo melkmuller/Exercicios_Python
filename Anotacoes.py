@@ -74,3 +74,16 @@ for c in range(0,3):
     estado['sigla'] = str(input("Sigla do Estado: "))
     brasil.append(estado.copy()) #Copia o dicionário para dentro da lista, no dicionário não funciona o fatiamento [:]
 
+def contador(*num):
+    print(num)
+
+contador(2,1,8,5)
+
+def dobra(lst):
+    pos = 0
+    while pos < lst(len):
+        lst[pos] *=2
+        pos += 1
+valores=[6,3,9,1,0,2]
+dobra(valores)
+print(valores)
