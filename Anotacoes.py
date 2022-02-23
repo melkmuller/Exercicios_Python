@@ -80,10 +80,18 @@ def contador(*num):
 contador(2,1,8,5)
 
 def dobra(lst):
+    """
+    Pega uma lista de qualquer tamanho e dobra cada valor dela
+    """
     pos = 0
     while pos < lst(len):
         lst[pos] *=2
         pos += 1
+
+help(dobra) 
+
 valores=[6,3,9,1,0,2]
 dobra(valores)
 print(valores)
+
+print(print.__doc__)
